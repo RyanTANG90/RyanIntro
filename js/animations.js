@@ -32,7 +32,7 @@
 			var imagePos = $(this).offset().top;
 			
 			var topOfWindow = $(window).scrollTop();
-				if (imagePos < topOfWindow+500) {
+				if (imagePos < topOfWindow+300) {
 					$(this).addClass("rollIn");
 				}
 			});	
@@ -41,7 +41,7 @@
 			var imagePos = $(this).offset().top;
 			
 			var topOfWindow = $(window).scrollTop();
-				if (imagePos < topOfWindow+500) {
+				if (imagePos < topOfWindow+300) {
 					$(this).addClass("fadeIn");
 				}
 			});
@@ -50,7 +50,7 @@
 			var imagePos = $(this).offset().top;
 			
 			var topOfWindow = $(window).scrollTop();
-				if (imagePos < topOfWindow+500) {
+				if (imagePos < topOfWindow+300) {
 					$(this).addClass("bounceIn");
 				}
 			});	
@@ -59,7 +59,7 @@
 			var imagePos = $(this).offset().top;
 			
 			var topOfWindow = $(window).scrollTop();
-				if (imagePos < topOfWindow+500) {
+				if (imagePos < topOfWindow+900) {
 					$(this).addClass("flipInY");
 				}
 			});	
@@ -69,7 +69,7 @@
 			var imagePos = $(this).offset().top;
 			
 			var topOfWindow = $(window).scrollTop();
-				if (imagePos < topOfWindow+500) {
+				if (imagePos < topOfWindow+300) {
 					$(this).addClass("fadeIn");
 				}
 			});
@@ -79,7 +79,7 @@
 			var imagePos = $(this).offset().top;
 			
 			var topOfWindow = $(window).scrollTop();
-				if (imagePos < topOfWindow+500) {
+				if (imagePos < topOfWindow+300) {
 					$(this).addClass("flipInX");
 				}
 			});	
