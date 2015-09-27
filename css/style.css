@@ -7,7 +7,7 @@ body {
 }
 
 .body {
-    position: relative;
+    position: relative !important;
     width: 100%;
     overflow: hidden;
 }

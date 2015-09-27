@@ -29,43 +29,39 @@
 	<![endif]-->
 
 </head>
-<body id="page-top" data-spy="scroll" data-target=".navbar-custom" onload="$(&#39;#num&#39;).val(1);">
+<body id="page-top" data-spy="scroll" data-target="#scrool" onload="$(&#39;#num&#39;).val(1);">
 
 <div class="body">
 <!-- Header -->
 <header>
-	<nav class="navbar navbar-custom navbar-fixed-top top-nav-collapse" role="navigation">
+	<nav class="navbar navbar-custom navbar-fixed-top top-nav-collapse"  role="navigation">
 		<div class="container">
 			<div class="navbar-header page-scroll">
 				<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target=".navbar-main-collapse"  >
-					<span class="sr-only">Toggle navigation</span>
-					<span class="icon-bar"></span>
-					<span class="icon-bar"></span>
-					<span class="icon-bar"></span>
-				<h4 class="fa fa-bars text-uppercase " >MENU</h4>
+				<p class="fa fa-bars text-uppercase " >MENU</p>
 				</button>
 				<a class="navbar-brand" href="#">
 				<i class="iconfont">汤祺</i>   <div class="logozi" style="padding-left: 30px; line-height: 15px;"><i>天降大任于斯人也，<br/>必先苦其心志，劳其体肤。</i> </div>
 				</a>
 			</div>
 			<!-- Collect the nav links, forms, and other content for toggling -->
-			<div class="navbar-collapse navbar-right navbar-main-collapse top-menu collapse" style="height: 1px;">
+			<div class="navbar-collapse navbar-right navbar-main-collapse top-menu collapse"   id="scrool"  style="height: 1px;">
 				<ul class="nav navbar-nav">
 					<!-- Hidden li included to remove active class from about link when scrolled up past about section -->
 					<li class="page-scroll active">
-						<a href="#"><i>HOME</i></a>  <!--todo:锚点和侧边进度条！！---->
+						<a href="#HOME"><i>HOME</i></a>  <!--todo:锚点和侧边进度条！！---->
 					</li>
 					<li class="page-scroll">
-						<a href="#"> <i>SELF-INTRO</i></a>
+						<a href="#SELF"> <i>SELF-INTRO</i></a>
 					</li>
 					<li class="page-scroll">
-						<a href="#"><i>PROTFOLIO</i></a>
+						<a href="#PRO"><i>PROTFOLIO</i></a>
 					</li>
 					<li class="page-scroll">
-						<a href="#"><i>ONE MORE THING</i></a>
+						<a href="#ONE"><i>ONE MORE THING</i></a>
 					</li>
 					<li class="page-scroll">
-						<a href="#"> <i>CONTACT</i></a>
+						<a href="#CONTACT"> <i>CONTACT</i></a>
 					</li>
 					<!--<li class="page-scroll">
 						<a href="./blog.html">Blog <i>视角</i></a>
@@ -129,11 +125,13 @@
 <!-- Intro top content -->
 
 <!-- Welcome content -->
+	<a name="HOME"></a>
 <section class="welcome-content">
 	<div class="container">
 		<div class="row">
 			<div class="col-md-12 welcome-text animated bounceIn">
-				<h3>Welcome to my Homepage</h3>
+
+				<h3 id="HOME">Welcome to my Homepage</h3>
 				<br/> <p class="yahei">欢迎来到我的个人网站</p>
 				<div class="line1"></div>
 				<p><span class="yahei text-justify"> 俗话说：“天将降大任于斯人也，必先苦其心志，劳其体肤也”这是我人生的座右铭。我生长在一个国际家庭，由于周围语言丰富语言环境的熏陶，我从小就表现出了在语言上的天赋，可以较为流利说英语和韩语， 在大学时期我有幸被学校选中，成为第一批代表学校赴德交流的学生，这一段德国研修的经历，不但使我的英语更加流利了，而且也开拓了视野，更加充实了我的交际圈。
@@ -155,11 +153,13 @@
 
 
 	<!-- Team content -->
+	<a name="SELF"></a>
 <section class="team-content" id="team">
 	<div class="container">
 		<div class="row">
 			<div class="fade-text animated fadeIn">
-				<h3>SELF-INTRO</h3>
+
+				<h3 id="SELF">SELF-INTRO</h3>
 				<div class="line1"></div>
 				<p><span class="yahei"> </span><br>
 			    With our core values of hoesty, hard work, and trust. Our goal is to have these characteristics  influence everything we do in business and in life. We sincerely enjoy the work  we do, and our clients garner the benefits.</p>
@@ -186,7 +186,7 @@
 				</div>
 				<div class="col-md-3 staff-content animated rollIn">
 					<div class="staff-img">
-						<img src="img/8.gif" class="img-responsive" alt="" STYLE="height: 355px;" >
+						<img src="img/ENSTAIN.jpg" class="img-responsive" alt="" STYLE="height: 355px;" >
 					</div>
 					<h4>发散性思维 <span>具备爱因斯坦的思维</span></h4>
 				</div>
@@ -203,7 +203,7 @@
 	<div class="container">
 		<div class="row">
 			<div class="fade-text animated fadeIn">
-				<h3>The skills I am GOOD at</h3>
+				<h3 >The skills I am GOOD at</h3>
 				<div class="line3"></div>
 				<p><span class="yah"> 目前的前端技术更新的都比较快，但是无论什么前端框架都是基于，CSS,JS，HTML的，熟练掌握这些技术，对现在和以后都是非常重要的，我的人生目标是有朝一日不但能够轻松的修改别人写的框架，甚至能够自己出一套框架，能够为这个行业做出自己的一点贡献。我相信，以我目前的英语能力，加上我对于这份事业的热衷和专注，这一切都是可能发生的！
 				</span></p>
@@ -255,9 +255,11 @@
 <!-- Services content -->
 
 <!-- Portfolio content -->
+	<a name="PRO"></a>
 <section class="portfolio-wrap" id="portfolio">
 	<div class="fade-text animated fadeIn">
-		<h3>MY protofile</h3>
+
+		<h3 id="PRO">MY protofile</h3>
 	</div>
 	<div class="line1"></div>
 	<div class="col-md-12 no-padding portfolio-main">
@@ -338,12 +340,14 @@
 <!-- Portfolio content -->
 
 <!-- Testimonial content -->
+	<a name="ONE"></a>
 <section class="testimonial-wrap" id="testimonials" data-slide="3" data-stellar-background-ratio="0.5" style="background-position: 0px -2804.02px;">
 	<div class="cover"></div>
 	<div class="container">
 		<div class="row">
 			<div class="fade-text animated fadeIn">
-				<h3>ONE MORE THING</h3>
+
+				<h3 id="ONE">ONE MORE THING</h3>
 			</div>
 			<div class="col-md-12 quote-slide animated fadeIn">
 				<div id="quote-slider" class="flexslider">
@@ -384,14 +388,13 @@
 <!-- Testimonial content -->
 
 <!-- Contact content -->
+	<a name="CONTACT" ></a>
 <section class="contact-wrap" id="contact">
-	<div class="container">
-		<div class="row">
+	<div class="container" id="CONTACT">
+		<div class="row" >
 			<div class="fade-text animated fadeIn">
 				<h3><img src="img/HQ.png" width="152" height="152" alt="RyanTang"></h3>
 				<div class="line1"></div>
-				<p><span class="yahei"><br>
-				</span>.</p>
 			</div>
 			<div class="space80"></div>
 			<div class="col-md-12 no-padding">
